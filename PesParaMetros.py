@@ -34,7 +34,7 @@ ttk.Label(mainframe, textvariable=meters).grid(column=2, row=2, sticky=(W,E))#Um
 ttk.Button(mainframe, text="Calcular", command=calculate).grid(column=3, row=3, sticky=W)#Criado para acionar a função calculate quando clicado. 
 
 #Labels são adicionados em formato de texto para indicar as unidades e a relação entre pés e metros. 
-ttk.Label(mainframe, text="Pés").grid(column=3, row=1, sticky=W)
+ttk.Label(mainframe, text="Pés").grid(column=1, row=1, sticky=E)
 #<p></p>
 ttk.Label(mainframe, text="É equivalente a").grid(column=1, row=2, sticky=E)
 #<p></p>
