@@ -4,7 +4,7 @@ import random
 
 root = Tk()
 root.title("Senha Aleatória")
-root.minsize(300,100)
+root.minsize(300, 100)
 
 def gerar_senha(tamanho=8):
     letra = 'aAbBcCdDeEfFgGhHiIjJkKlLmMnNoOpPqQrRsStTuUvVwWxXyYzZ'
